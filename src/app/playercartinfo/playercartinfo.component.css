@@ -1,0 +1,59 @@
+.tournament-align {
+  width: 85%;
+  position: relative;
+  margin: 0 auto;
+}
+.panel-heading {
+  background-color: #212121;
+  color: #fff;
+  height: 44px;
+  float: left;
+  width: 100%;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.grid-content {
+  float: left;
+  width: 100%;
+  background: rgba(249,245,245,.94);
+}
+.grid-table {
+  float: left;
+  width: 100px;
+  min-width: calc(100% - 0px);
+}
+.tablescroll {
+  height: calc(100% - 40px);
+  overflow-y: auto;
+  position: relative;
+  max-width: 100%;
+  max-height: 700px;
+}
+.grid-content table thead>tr td {
+  color: #fff;
+}
+.table>thead:first-child>tr:first-child>td{
+  border-top: 0;
+}
+.tswidth {
+  width: 150px;
+}
+.grid-content table thead>tr {
+  text-align: left;
+  background-color: #212121;
+  font-size: 15px;
+  padding: 10px 0;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+.table {
+  margin-bottom: 0;
+}
+.text-center {
+  text-align: center;
+}
