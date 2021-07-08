@@ -8,7 +8,8 @@ import { TournamentComponent } from './tournament/tournament.component';
 import { HolesassignmentComponent } from './holesassignment/holesassignment.component';
 import { TournamentsdetailsComponent } from './tournamentsdetails/tournamentsdetails.component';
 import { LeaderboardComponent } from './leaderboard/leaderboard.component';
-import { MapPageComponent } from './map-page/map-page.component'
+import { MapPageComponent } from './map-page/map-page.component';
+import { OpenlayerComponent } from './openlayer/openlayer.component'
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MapPageComponent } from './map-page/map-page.component'
     HolesassignmentComponent,
     TournamentsdetailsComponent,
     LeaderboardComponent,
-    MapPageComponent
+    MapPageComponent,
+    OpenlayerComponent
   ],
   imports: [
     BrowserModule,
